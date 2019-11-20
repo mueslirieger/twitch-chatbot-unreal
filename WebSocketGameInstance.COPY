@@ -1,0 +1,23 @@
+Begin Object Class=/Script/Engine.Blueprint Name="WebSocketGameInstance"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="EventGraph"
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      bAllowDeletion=False
+      GraphGuid=28821C3A447BABDBA4C010936F23731E
+   End Object
+   ParentClass=Class'"/Script/Engine.GameInstance"'
+   UbergraphPages(0)=EdGraph'"EventGraph"'
+   NewVariables(0)=(VarName="Socket",VarGuid=9C97C0294CF56273DAFC3E9DE8A38CC6,VarType=(PinCategory="object",PinSubCategoryObject=Class'"/Script/WebSocket.WebSocketBase"'),FriendlyName="Socket",Category=NSLOCTEXT("KismetSchema", "Default", "Default"),PropertyFlags=5)
+   CategorySorting(0)="Default"
+   BlueprintSystemVersion=2
+   LastEditedDocuments(0)=(EditedObjectPath=/Game/WebSocketGameInstance.WebSocketGameInstance:EventGraph,SavedZoomAmount=1.000000)
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+   GeneratedClass=BlueprintGeneratedClass'"WebSocketGameInstance_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=1A7152304C5445F4C6670896B889FD92
+End Object
